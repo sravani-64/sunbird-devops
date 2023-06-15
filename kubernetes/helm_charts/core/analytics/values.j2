@@ -21,7 +21,7 @@ resources:
     memory: {{analytics_mem_req|default('100Mi')}}
   limits:
     cpu: {{analytics_cpu_limit|default('1')}}
-    memory: {{analytics_mem_limit|default('1024Mi')}}
+    memory: {{analytics_mem_limit|default('2048Mi')}}
 network:
   port: 9000
   targetport: 9000
